@@ -1,0 +1,26 @@
+[
+    {
+        "brandName": "Apple",
+        "brandURL": "https://i.ibb.co/PGqCS4r/apple.jpg"
+    },
+    {
+        "brandName": " Intel",
+        "brandURL": "https://i.ibb.co/RSBcXp8/intel.jpg"
+    },
+    {
+        "brandName": "Lenovo",
+        "brandURL": "https://i.ibb.co/ry7hMKD/lenovo.jpg"
+    },
+    {
+        "brandName": "Samsung",
+        "brandURL": "https://i.ibb.co/zSV2h1R/samsung.jpg"
+    },
+    {
+        "brandName": "Sony",
+        "brandURL": "https://i.ibb.co/7jtYYBT/sony.jpg"
+    },
+    {
+        "brandName": "Xiaomi",
+        "brandURL": "https://i.ibb.co/Wy9fJb1/xiaomi.jpg"
+    }
+]
