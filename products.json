@@ -180,39 +180,39 @@
         "description": "The Sony Speaker signifies the high-performance gaming console, the Sony PlayStation 5. It's the ultimate choice for gamers looking to experience next-gen gaming."
     },
     {
-        "name": "Pixel Phone",
-        "image": "https://i.ibb.co/KVKMfHt/google-1.jpg",
-        "brand_name": "Google",
+        "name": "Mi Phone",
+        "image": "https://i.ibb.co/bBqFYW9/xiaomi-phone.jpg",
+        "brand_name": "Xiaomi",
         "type": "Smartphone",
         "price": 699.99,
         "rating": 4.5,
-        "description": "A pixel-perfect camera and a pure Android experience, making it a top choice for photography and Android enthusiasts."
+        "description": "The Mi Phone, the Mi 11, is a flagship smartphone known for its high-refresh-rate display and a powerful Snapdragon processor. It's designed for those who desire top-tier mobile performance."
     },
     {
-        "name": "Google Nest Hub",
-        "image": "https://i.ibb.co/qrhsKNv/google-2.jpg",
-        "brand_name": "Google",
-        "type": "Phone",
+        "name": "Mi Tv",
+        "image": "https://i.ibb.co/QnYHymH/xiaomi-tv.jpg",
+        "brand_name": "Xiaomi",
+        "type": "TV",
         "price": 99.99,
         "rating": 4.4,
-        "description": "A smart display with Google Assistant for your home, offering convenience and control over your smart devices."
+        "description": "The Xiaomi Mi Band 6, often known as the Mi Tv, is a budget-friendly fitness tracker with a large AMOLED screen. It's a handy device for fitness enthusiasts and anyone seeking to monitor their health."
     },
     {
-        "name": "Google Watch",
-        "image": "https://i.ibb.co/rvnQyBw/google-3.jpg",
-        "brand_name": "Google",
+        "name": "Mi Laptop",
+        "image": "https://i.ibb.co/FH7wLdz/xiaomi-laptop.png",
+        "brand_name": "Xiaomi",
         "type": "Watch",
         "price": 799.99,
         "rating": 4.6,
-        "description": "A lightweight Chromebook for productivity on the go, featuring a sleek design and efficient performance."
+        "description": "The Mi Laptop, the Redmi Note 10 Pro, offers excellent value with its high-resolution display and versatile camera. It's a cost-effective choice for users who value features and affordability."
     },
     {
-        "name": "Google Motherboard",
-        "image": "https://i.ibb.co/VQ4M28m/google-4.jpg",
-        "brand_name": "Google",
-        "type": "Hardware",
+        "name": "Mi Watch",
+        "image": "https://i.ibb.co/kqnncBW/xiaomi-watch.jpg",
+        "brand_name": "Xiaomi",
+        "type": "Watch",
         "price": 69.99,
         "rating": 4.3,
-        "description": "Stream 4K content to your TV with this compact device, ensuring a seamless streaming experience."
+        "description": "The Xiaomi Mi Electric Scooter is a convenient and eco-friendly mode of transportation. It's perfect for users who want a practical and sustainable way to get around."
     }
 ]

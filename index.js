@@ -54,10 +54,17 @@ async function run() {
         app.get('/products/:brand', async (req, res) => {
             const brand = req.params.brand;
             const filter = { brand_name: brand }
-            const product = productsCollection.find(filter)
-            const result = await product.toArray(product)
+            const products = productsCollection.find(filter)
+            const result = await products.toArray(products)
             res.send(result)
             console.log(filter, result);
+        })
+
+        //Product Details
+        app.get('/products', async (req, res) => {
+            const products = productsCollection.find()
+            const result = await products.toArray()
+            res.send(result)
         })
 
         //POST
