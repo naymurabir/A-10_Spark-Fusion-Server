@@ -6,9 +6,11 @@ const app = express()
 const port = process.env.PORT || 5000;
 
 
+
 // Middleware
 app.use(cors())
 app.use(express.json())
+
 
 
 // Database
@@ -28,7 +30,39 @@ async function run() {
         // Connect the client to the server	(optional starting in v4.7)
         await client.connect();
 
+        const brandsCollection = client.db("brandsDB").collection('brands')
 
+        const productsCollection = client.db('brandsDB').collection('products')
+
+        // Server Side APIs
+        //GET
+        app.get('/brands', async (req, res) => {
+            const cursor = brandsCollection.find()
+            const result = await cursor.toArray()
+            res.send(result)
+        })
+
+        //POST
+        app.post('/brands', async (req, res) => {
+            const newBrand = req.body
+            const result = await brandsCollection.insertOne(newBrand)
+            res.send(result)
+        })
+
+        //Client Side APIs
+        //GET
+        app.get('/products', async (req, res) => {
+            const cursor = productsCollection.find()
+            const result = await cursor.toArray()
+            res.send(result)
+        })
+
+        //POST
+        app.post('/products', async (req, res) => {
+            const newProduct = req.body
+            const result = await productsCollection.insertOne(newProduct)
+            res.send(result)
+        })
 
         // Send a ping to confirm a successful connection
         await client.db("admin").command({ ping: 1 });
