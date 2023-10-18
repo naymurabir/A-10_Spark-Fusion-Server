@@ -51,10 +51,13 @@ async function run() {
 
         //Client Side APIs
         //GET
-        app.get('/products', async (req, res) => {
-            const cursor = productsCollection.find()
-            const result = await cursor.toArray()
+        app.get('/products/:brand', async (req, res) => {
+            const brand = req.params.brand;
+            const filter = { brand_name: brand }
+            const product = productsCollection.find(filter)
+            const result = await product.toArray(product)
             res.send(result)
+            console.log(filter, result);
         })
 
         //POST

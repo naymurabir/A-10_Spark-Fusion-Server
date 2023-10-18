@@ -2,7 +2,7 @@
     {
         "name": "Apple Mack Book",
         "image": "https://i.ibb.co/9nhsrWx/mackbook.jpg",
-        "brand": "Apple",
+        "brand_name": "Apple",
         "type": "Computer",
         "price": 999.99,
         "rating": 4.8,
@@ -11,208 +11,208 @@
     {
         "name": "Apple Monitor",
         "image": "https://i.ibb.co/9pMDdsp/monitor.jpg",
-        "brand": "Apple",
+        "brand_name": "Apple",
         "type": "Computer",
-        "price": 1299.99,
-        "rating": 4.9,
+        "price": 1199.99,
+        "rating": 4.7,
         "description": "The Apple Monitor, often known as the MacBook Air, is a lightweight and compact laptop that excels in on-the-go productivity. It's designed for those who need a reliable and portable device for work or play, with a beautiful Retina display and the power of Apple's ecosystem."
     },
     {
         "name": "iPhone X",
         "image": "https://i.ibb.co/56nKRzh/iphone.jpg",
-        "brand": "Apple",
+        "brand_name": "Apple",
         "type": "Phone",
-        "price": 799.99,
-        "rating": 4.7,
+        "price": 249.99,
+        "rating": 4.5,
         "description": "The iPhone X offers the power of an iPad Pro with its Liquid Retina XDR display, making it perfect for creative work and multimedia consumption. This smartphone boasts top-tier features, ensuring a premium experience for users."
     },
     {
         "name": "Apple Watch",
         "image": "https://i.ibb.co/J5QP5wS/apple-watch.jpg",
-        "brand": "Apple",
+        "brand_name": "Apple",
         "type": "Watch",
-        "price": 249.99,
-        "rating": 4.8,
+        "price": 349.99,
+        "rating": 4.6,
         "description": "The Apple Watch is a highly popular smartwatch created by Apple Inc. It's known for its sleek design and wide range of health and fitness features. The Apple Watch allows users to monitor their heart rate, track physical activity."
+    },
+    {
+        "name": "Nokia Phone",
+        "image": "https://i.ibb.co/M5QPXKP/nokia-1.jpg",
+        "brand_name": "Nokia",
+        "type": "Smartphone",
+        "price": 349.99,
+        "rating": 4.2,
+        "description": "Get your hands on a solid mid-range smartphone with 5G connectivity, perfect for staying connected and productive."
+    },
+    {
+        "name": "Core I7",
+        "image": "https://i.ibb.co/4m2qq0W/nokia-2.webp",
+        "brand_name": "Nokia",
+        "type": "Core",
+        "price": 199.99,
+        "rating": 4.0,
+        "description": "A budget-friendly smartphone with a clean Android experience, offering great value for your money."
+    },
+    {
+        "name": "Nokia Power",
+        "image": "https://i.ibb.co/Bz4Vwnf/nokia-4.webp",
+        "brand_name": "Nokia",
+        "type": "Phone",
+        "price": 69.99,
+        "rating": 3.8,
+        "description": "These true wireless earbuds come with a long-lasting battery, ensuring uninterrupted music and calls."
+    },
+    {
+        "name": "Nokia G7",
+        "image": "https://i.ibb.co/jL7Fjbg/nokia-3.webp",
+        "brand_name": "Nokia",
+        "type": "Smartphone",
+        "price": 149.99,
+        "rating": 3.9,
+        "description": "An affordable smartphone with a large display, perfect for multimedia and gaming."
     },
     {
         "name": "Samsung Monitor",
         "image": "https://i.ibb.co/wMs1mpw/samsung-monitor.jpg",
-        "brand": "Samsung",
+        "brand_name": "Samsung",
         "type": "Computer",
         "price": 799.99,
-        "rating": 4.7,
+        "rating": 4.6,
         "description": "Samsung monitors are appreciated for their quality displays, which often feature high resolutions, vibrant colors, and fast refresh rates. They come in various sizes and configurations to suit different needs and preferences. "
     },
     {
         "name": "Samsung Phone",
         "image": "https://i.ibb.co/93tJh5z/samsung-phone.jpg",
-        "brand": "Samsung",
+        "brand_name": "Samsung",
         "type": "Phone",
-        "price": 1499.99,
-        "rating": 4.8,
+        "price": 1099.99,
+        "rating": 4.5,
         "description": "The Samsung Phone typically refers to one of Samsung's smartphones. Samsung is a leading manufacturer of Android-based smartphones, and their phones are renowned for their high-quality displays."
     },
     {
         "name": "Samsung Camera",
         "image": "https://i.ibb.co/18kLQjw/samsung-camera.jpg",
-        "brand": "Samsung",
+        "brand_name": "Samsung",
         "type": "Camera",
-        "price": 299.99,
-        "rating": 4.6,
+        "price": 199.99,
+        "rating": 4.4,
         "description": "The Samsung Camera is more than just a camera; it's the feature-rich Galaxy Watch 4, a smartwatch designed for fitness tracking and health monitoring. It's a valuable companion for those looking to maintain an active lifestyle."
     },
     {
         "name": "Samsung Laptop",
         "image": "https://i.ibb.co/s1Qpf7C/samsung-laptop.jpg",
-        "brand": "Samsung",
+        "brand_name": "Samsung",
         "type": "Computer",
-        "price": 179.99,
+        "price": 999.99,
         "rating": 4.7,
         "description": "Galaxy Buds Pro deliver premium audio and noise isolation for a great listening experience."
     },
     {
         "name": "Intel Desktop",
         "image": "https://i.ibb.co/xmyGd30/intel-desktop.jpg",
-        "brand": "Intel",
+        "brand_name": "Intel",
         "type": "Computer",
         "price": 499.99,
-        "rating": 4.6,
+        "rating": 4.8,
         "description": "The Intel Desktop refers to the high-performance processor, the Intel Core i9-11900K, which is a beast for gaming and content creation. Its raw power ensures that you can tackle demanding tasks with ease."
     },
     {
         "name": "Intel Laptop",
         "image": "https://i.ibb.co/DGS0ZS4/intel-laptop.jpg",
-        "brand": "Intel",
+        "brand_name": "Intel",
         "type": "Computer",
-        "price": 399.99,
+        "price": 699.99,
         "rating": 4.5,
         "description": "The Intel Laptop is powered by the Intel Core i7-11700K, offering excellent performance for gaming and multitasking. It's a reliable choice for users who demand both speed and versatility."
     },
     {
         "name": "Intel Motherboard",
         "image": "https://i.ibb.co/m5ybpqr/intel-motherboard.jpg",
-        "brand": "Intel",
+        "brand_name": "Intel",
         "type": "Hardware",
-        "price": 599.99,
-        "rating": 4.4,
+        "price": 119.99,
+        "rating": 4.6,
         "description": "The Intel Motherboard represents the Intel NUC Mini PC, a compact and versatile computer built for a range of tasks. Its small size doesn't compromise on performance, making it suitable for a variety of applications."
     },
     {
         "name": "Intel Processor",
         "image": "https://i.ibb.co/pnycK58/intel-2.jpg",
-        "brand": "Intel",
+        "brand_name": "Intel",
         "type": "Hardware",
-        "price": 129.99,
-        "rating": 4.7,
+        "price": 39.99,
+        "rating": 4.4,
         "description": "The Intel Processor, the Intel SSD 670p, offers fast storage, enabling quick data access and superior application performance. With this SSD, you'll experience a significant boost in your computing efficiency."
-    },
-    {
-        "name": "Lenovo Headphone",
-        "image": "https://i.ibb.co/bgP7xY4/wallpaperflare-com-wallpaper.jpg",
-        "brand": "Lenovo",
-        "type": "Headphones",
-        "price": 1499.99,
-        "rating": 4.9,
-        "description": "Lenovo offers a range of headphones, one of which is the Lenovo ThinkPad X1 ANC (Active Noise Cancelling) headphones. These headphones are known for their high-quality audio performance and noise-canceling capabilities."
-    },
-    {
-        "name": "Lenovo Monitor",
-        "image": "https://i.ibb.co/gb8XMvR/lenovo-monitor.jpg",
-        "brand": "Lenovo",
-        "type": "Computer",
-        "price": 1799.99,
-        "rating": 4.7,
-        "description": "The Lenovo Monitor actually refers to the Lenovo Legion 7, a high-performance gaming laptop with a fast refresh rate display. Gamers and enthusiasts will appreciate its powerful hardware and immersive visuals."
-    },
-    {
-        "name": "IdeaPad 5",
-        "image": "https://i.ibb.co/60S4gyn/lenovo-tablet.jpg",
-        "brand": "Lenovo",
-        "type": "Tablet",
-        "price": 699.99,
-        "rating": 4.5,
-        "description": "The IdeaPad 5 is a budget-friendly laptop known for its decent performance and battery life. It's a cost-effective solution for everyday computing tasks."
-    },
-    {
-        "name": "Lenovo Laptop",
-        "image": "https://i.ibb.co/xX1qLzG/lenovo-laptop.jpg",
-        "brand": "Lenovo",
-        "type": "Computer",
-        "price": 1199.99,
-        "rating": 4.8,
-        "description": "The Lenovo Laptop, represented by the Lenovo Yoga C940, is a versatile 2-in-1 laptop with a 4K touchscreen and stylus support. It offers flexibility and top-notch display quality."
     },
     {
         "name": "Sony Camera",
         "image": "https://i.ibb.co/StGhYkj/sony-camera.jpg",
-        "brand": "Sony",
+        "brand_name": "Sony",
         "type": "Camera",
-        "price": 349.99,
-        "rating": 4.8,
+        "price": 1999.99,
+        "rating": 4.9,
         "description": "The Sony Camera is actually the Sony WH-1000XM4, a pair of premium noise-canceling headphones. These headphones deliver exceptional sound quality and noise-canceling capabilities, making them a top choice for audiophiles and travelers."
     },
     {
         "name": "Sony Headphone",
         "image": "https://i.ibb.co/gRDM97T/sony-headphone.jpg",
-        "brand": "Sony",
+        "brand_name": "Sony",
         "type": "Headphones",
-        "price": 1999.99,
-        "rating": 4.9,
+        "price": 349.99,
+        "rating": 4.8,
         "description": "The Sony Headphone represents the Sony A7 III, a top-tier mirrorless camera. With outstanding image quality and performance, it's a go-to option for photography enthusiasts and professionals."
     },
     {
         "name": "Sony Laptop",
         "image": "https://i.ibb.co/HYyRzR8/sony-laptop.jpg",
-        "brand": "Sony",
+        "brand_name": "Sony",
         "type": "Computer",
-        "price": 2499.99,
-        "rating": 4.8,
-        "description": "Sony BRAVIA OLED TV offers stunning visuals and an immersive entertainment experience. This TV is perfect for those who appreciate a cinematic viewing experience."
+        "price": 1499.99,
+        "rating": 4.7,
+        "description": "Sony BRAVIA OLED  offers stunning visuals and an immersive entertainment experience. This TV is perfect for those who appreciate a cinematic viewing experience."
     },
     {
         "name": "Sony Speaker",
         "image": "https://i.ibb.co/KG4QdZd/sony-speaker.jpg",
-        "brand": "Sony",
+        "brand_name": "Sony",
         "type": "Computer",
         "price": 499.99,
-        "rating": 4.7,
+        "rating": 4.9,
         "description": "The Sony Speaker signifies the high-performance gaming console, the Sony PlayStation 5. It's the ultimate choice for gamers looking to experience next-gen gaming."
     },
     {
-        "name": "Mi Phone",
-        "image": "https://i.ibb.co/bBqFYW9/xiaomi-phone.jpg",
-        "brand": "Xiaomi",
-        "type": "Phone",
-        "price": 599.99,
-        "rating": 4.6,
-        "description": "The Mi Phone, the Mi 11, is a flagship smartphone known for its high-refresh-rate display and a powerful Snapdragon processor. It's designed for those who desire top-tier mobile performance."
-    },
-    {
-        "name": "Mi Tv",
-        "image": "https://i.ibb.co/QnYHymH/xiaomi-tv.jpg",
-        "brand": "Xiaomi",
-        "type": "Fitness Tracker",
-        "price": 49.99,
-        "rating": 4.7,
-        "description": "The Xiaomi Mi Band 6, often known as the Mi Tv, is a budget-friendly fitness tracker with a large AMOLED screen. It's a handy device for fitness enthusiasts and anyone seeking to monitor their health."
-    },
-    {
-        "name": "Mi Laptop",
-        "image": "https://i.ibb.co/FH7wLdz/xiaomi-laptop.png",
-        "brand": "Xiaomi",
-        "type": "Computer",
-        "price": 299.99,
+        "name": "Pixel Phone",
+        "image": "https://i.ibb.co/KVKMfHt/google-1.jpg",
+        "brand_name": "Google",
+        "type": "Smartphone",
+        "price": 699.99,
         "rating": 4.5,
-        "description": "The Mi Laptop, the Redmi Note 10 Pro, offers excellent value with its high-resolution display and versatile camera. It's a cost-effective choice for users who value features and affordability."
+        "description": "A pixel-perfect camera and a pure Android experience, making it a top choice for photography and Android enthusiasts."
     },
     {
-        "name": "Mi Watch",
-        "image": "https://i.ibb.co/kqnncBW/xiaomi-watch.jpg",
-        "brand": "Xiaomi",
+        "name": "Google Nest Hub",
+        "image": "https://i.ibb.co/qrhsKNv/google-2.jpg",
+        "brand_name": "Google",
+        "type": "Phone",
+        "price": 99.99,
+        "rating": 4.4,
+        "description": "A smart display with Google Assistant for your home, offering convenience and control over your smart devices."
+    },
+    {
+        "name": "Google Watch",
+        "image": "https://i.ibb.co/rvnQyBw/google-3.jpg",
+        "brand_name": "Google",
         "type": "Watch",
-        "price": 399.99,
+        "price": 799.99,
         "rating": 4.6,
-        "description": "The Xiaomi Mi Electric Scooter is a convenient and eco-friendly mode of transportation. It's perfect for users who want a practical and sustainable way to get around."
+        "description": "A lightweight Chromebook for productivity on the go, featuring a sleek design and efficient performance."
+    },
+    {
+        "name": "Google Motherboard",
+        "image": "https://i.ibb.co/VQ4M28m/google-4.jpg",
+        "brand_name": "Google",
+        "type": "Hardware",
+        "price": 69.99,
+        "rating": 4.3,
+        "description": "Stream 4K content to your TV with this compact device, ensuring a seamless streaming experience."
     }
 ]
