@@ -36,7 +36,7 @@ async function run() {
 
         const productsCart = client.db("brandsDB").collection('carts')
 
-        // Server Side APIs
+        // Brand Based APIs
         //GET
         app.get('/brands', async (req, res) => {
             const cursor = brandsCollection.find()
@@ -84,7 +84,8 @@ async function run() {
             res.send(result)
         })
 
-        //Product Details
+        //Product Based APIs
+        //GET
         app.get('/products', async (req, res) => {
             const products = productsCollection.find()
             const result = await products.toArray()
@@ -97,6 +98,28 @@ async function run() {
             const result = await productsCollection.insertOne(newProduct)
             res.send(result)
         })
+
+        //UPDATE
+        app.put('/products/:id', async (req, res) => {
+            const id = req.params.id
+            const product = req.body
+            const query = { _id: new ObjectId(id) }
+
+            const updateProduct = {
+                $set: {
+                    name: product.name,
+                    brand_name: product.brand_name,
+                    image: product.image,
+                    type: product.type,
+                    price: product.price,
+                    rating: product.rating,
+                    description: product.description
+                },
+            }
+            const result = await productsCollection.updateOne(query, updateProduct)
+            res.send(result)
+        })
+
 
         // Send a ping to confirm a successful connection
         await client.db("admin").command({ ping: 1 });
