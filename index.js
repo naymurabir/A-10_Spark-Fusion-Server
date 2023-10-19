@@ -34,6 +34,8 @@ async function run() {
 
         const productsCollection = client.db('brandsDB').collection('products')
 
+        const productsCart = client.db("brandsDB").collection('carts')
+
         // Server Side APIs
         //GET
         app.get('/brands', async (req, res) => {
@@ -49,6 +51,29 @@ async function run() {
             res.send(result)
         })
 
+        //Cart based APIs
+        //POST
+        app.post('/carts', async (req, res) => {
+            const newCart = req.body
+            const result = await productsCart.insertOne(newCart)
+            res.send(result)
+        })
+
+        //GET
+        app.get('/carts', async (req, res) => {
+            const cursor = productsCart.find()
+            const result = await cursor.toArray()
+            res.send(result)
+        })
+
+        //DELETE
+        app.delete('/carts/:id', async (req, res) => {
+            const id = req.params.id
+            const query = { _id: id }
+            const result = await productsCart.deleteOne(query)
+            res.send(result)
+        })
+
         //Client Side APIs
         //GET
         app.get('/products/:brand', async (req, res) => {
@@ -57,7 +82,6 @@ async function run() {
             const products = productsCollection.find(filter)
             const result = await products.toArray(products)
             res.send(result)
-            console.log(filter, result);
         })
 
         //Product Details
