@@ -72,6 +72,7 @@ async function run() {
             res.send(result)
         })
 
+
         //Client Side APIs
         //GET
         app.get('/products/:brand', async (req, res) => {
@@ -82,6 +83,7 @@ async function run() {
             res.send(result)
         })
 
+
         //Product Based APIs
         //GET
         app.get('/products', async (req, res) => {
@@ -90,12 +92,14 @@ async function run() {
             res.send(result)
         })
 
+
         //POST
         app.post('/products', async (req, res) => {
             const newProduct = req.body
             const result = await productsCollection.insertOne(newProduct)
             res.send(result)
         })
+
 
         //UPDATE
         app.put('/products/:id', async (req, res) => {
@@ -128,7 +132,6 @@ async function run() {
     }
 }
 run().catch(console.dir);
-
 
 
 app.get('/', (req, res) => {
